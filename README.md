@@ -1,17 +1,18 @@
 # Getting Started Steps
-1. unzip material project into folder
+1. Run git clone https://github.com/futuristacademy/react-material-ui-firebase.git
 2. rename the root folder to what you want the app to be named
-3. Go to firebase and create a new project 
+3. Go to firebase and create a new project
 4. Add Hosting to that project
-5. Follow the steps in Firebase for hosting:
     a. npm install firebase-tools
     b. firebase login
     c. firebase init
-        in firebase init, choose hosting as what you need. then accept defaults except for the public directory. enter: build. Also, make sure you say you want to use existing project (the one you just created in firebase)
+        -  choose hosting as what you need. 
+        -  accept defaults except for the public directory. 
+            -  enter: build. 
+        -  Also, make sure you say you want to use existing project (the one you just created in firebase)
      d. npm install firebase
-6. create a file (i use fbconfig.js as a name)
-7. go to your project and create a new datbase
 8. go to project settings in firebase and copy the code in there except for the www.static.. line. ignore that. Copy that into your fbconfig.
+    a. if the settings file isn't there click "new app" in the project
 
 
 
