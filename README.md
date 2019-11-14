@@ -10,7 +10,7 @@
         in firebase init, choose hosting as what you need. then accept defaults except for the public directory. enter: build. Also, make sure you say you want to use existing project (the one you just created in firebase)
      d. npm install firebase
 6. create a file (i use fbconfig.js as a name)
-7. go to project settings in firebase and copy the code in there except for the www.static.. line. ignore that. Copy that into your fbconfig. it should look like this (i removed API key):
+7. go to project settings in firebase and copy the code in there except for the www.static.. line. ignore that. Copy that into your fbconfig.
 
 
 
