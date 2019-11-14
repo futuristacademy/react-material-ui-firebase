@@ -1,18 +1,19 @@
 # Getting Started Steps
-1. Run git clone https://github.com/futuristacademy/react-material-ui-firebase.git
+1. Run git clone https://github.com/futuristacademy/react-material-ui-firebase.git </n>
 2. rename the root folder to what you want the app to be named
 3. Go to firebase and create a new project
-4. Add Hosting to that project
-    a. npm install firebase-tools
-    b. firebase login
-    c. firebase init
-        -  choose hosting as what you need. 
-        -  accept defaults except for the public directory. 
-            -  enter: build. 
-        -  Also, make sure you say you want to use existing project (the one you just created in firebase)
-     d. npm install firebase
-8. go to project settings in firebase and copy the code in there except for the www.static.. line. ignore that. Copy that into your fbconfig.
-    a. if the settings file isn't there click "new app" in the project
+4. Add Hosting to that project </br>
+    a. npm install firebase-tools </br>
+    b. firebase login </br>
+    c. firebase init </br>
+        -  choose hosting as what you need. </br>
+        -  accept defaults except for the public directory. </br>
+            -  enter: build. </br>
+        -  Also, make sure you say you want to use existing project (the one you just created in firebase) </br>
+     d. npm install firebase </br>
+8. go to project settings in firebase and copy the code in there except for the www.static.. line. ignore that. </br>
+    a. if the settings file isn't there click "new app" in the project </br>
+9. Copy that into your fbconfig. </br>
 
 
 
